@@ -24,10 +24,10 @@
 
 @keyframes anim-nuvem {
     0% {
-        left: -52.08%;
+        left: 0%;
     }
     50% {
-        left: 65.10%;
+        left: 60%;
     }
     100% {
         left: 0%;
@@ -163,7 +163,7 @@ body {
     top: -5.3%;
     left: 54.31%;
     background-color: #FFB6B6;
-    animation: anim-cabeca-porco 10s infinite    ;
+    animation: anim-cabeca-porco 10s infinite;
 }
 
 .nariz-porco {
