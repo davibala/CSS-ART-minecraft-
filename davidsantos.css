@@ -1,0 +1,677 @@
+@keyframes anim-zumbi {
+    0% {
+        left: 78.12%;
+    }
+    50% {
+        left: 65.10%;
+    }
+    100% {
+        left: 78.12%;
+    }
+}
+
+@keyframes anim-steve {
+    0% {
+        left: 36.52%;
+    }
+    50% {
+        left: 44.27%;
+    }
+    100% {
+        left: 36.52%;
+    }
+}
+
+@keyframes anim-nuvem {
+    0% {
+        left: -52.08%;
+    }
+    50% {
+        left: 65.10%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes anim-espada {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes anim-cabeca-porco {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-25deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes anim-porco-pisca {
+    0% {
+        top: 10%;  
+    }
+    25% {
+        top: 33%;
+    }
+    50% {
+        top: 10%;
+    }
+    75% {
+        top: 10%;
+    }
+    100% {
+        top: 10%;  
+    }
+}
+
+@keyframes anim-braco-1-zumbi {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ace7ed;
+    overflow: hidden;
+}
+
+.gramado-chao {
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    top: 90%;
+    background: #669A4A;
+}
+
+.terra-chao {
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    top: 95%;
+    background: #593E28;
+}
+
+.porco {
+    width: 20.44%;
+    height: 25.33%;
+    position: absolute;
+    top: 68%;
+    left: 10%;
+}
+
+.corpo-porco {
+    width: 66.77%;
+    height: 51.06%;
+    position: absolute;
+    top: 16%;
+    left: 3%;
+    background: #FFA8A8;
+}
+
+.pata-porco {
+    width: 14%;
+    height: 33%;
+    position: absolute;
+    top: 66.48%;
+    background: #FFA8A8;
+}
+
+#pata-1 {
+    left: 0%;
+}
+
+#pata-2 {
+    left: 16%;
+}
+
+#pata-3 {
+    left: 43%;
+}
+
+#pata-4 {
+    left: 59%;
+}
+
+.cabeca-porco {
+    width: 34.50%;
+    height: 54.25%;
+    position: absolute;
+    top: -5.3%;
+    left: 54.31%;
+    background-color: #FFB6B6;
+    animation: anim-cabeca-porco 10s infinite    ;
+}
+
+.nariz-porco {
+    width: 18.51%;
+    height: 32.35%;
+    position: absolute;
+    top: 53.92%;
+    left: 87.96%;
+    background-color: #FFCACA;
+}
+
+.orelha-porco {
+    width: 9.80%;
+    height: 44.44%;
+    position: absolute;
+    top: 26.85%;
+    left: 39.21%;
+    background-color: #391E19;   
+}
+
+.palpebra-porco {
+    width: 39.7%;
+    height: 18.51%;
+    position: absolute;
+    left: 60%;
+    background: #FFB6B6;
+    animation: anim-porco-pisca 4s infinite;
+}
+
+.olho-porco {
+    width: 5.88%;
+    height: 16.66%;
+    position: absolute;
+    top: 34.5%;
+}
+
+#esclera-olho-porco-1 {
+    background: #FFFFFF;
+    left: 74%;
+}
+
+#iris-olho-porco-1 {
+    background: #000000;
+    left: 68%;
+}
+
+#esclera-olho-porco-2 {
+    background: #FFFFFF;
+    left: 88%;
+}
+
+#iris-olho-porco-2 {
+    background: #000000;
+    left: 94.119%;
+}
+
+.bola-do-nariz-porco {
+    width: 5.88%;
+    height: 12.96%;
+    position: absolute;
+    top: 62%;
+    background: #000000;
+}
+
+#bola-do-nariz-porco-1 {
+    left: 87.96%;
+}
+
+#bola-do-nariz-porco-2 {
+    left: 103.7%;
+}
+
+.espada {
+    width: 268%;
+    height: 196%;
+    position: absolute;
+    top: -90%;
+    left: 130%;
+}
+
+.cabo-espada {
+    width: 29.47%;
+    height: 13.26%;
+    position: absolute;
+    top: 73.97%;
+    background: #977356;
+    transform: rotate(145deg);
+}
+
+.ponta-lamina-espada {
+    width: 7%;
+    height: 9%;
+    position: absolute;
+    top: -1%; 
+    left: 91.14%;
+    background: #6EE0FF;
+    transform: rotate(95deg);
+}
+
+.lamina-espada {
+    width: 73.8%;
+    height: 13.13%;
+    position: absolute;
+    top: 26.01%;
+    left: 27.67%;
+    background: #6EE0FF;
+    transform: rotate(145deg);
+}
+
+.guarda-espada {
+    width: 29.52%;
+    height: 13.63%;
+    position: absolute;
+    top: 58.08%;
+    left: 15.86%;
+    background: #55B3CC;
+    transform: rotate(55deg);
+}
+
+.steve {
+    width: 20.62%;
+    height: 53.36%;
+    position: absolute;
+    top: 39.35%;
+    left: 36.52%;
+    animation: anim-steve 5s infinite;
+}
+
+.calca-steve {
+    width: 35.12%;
+    height: 35.10%;
+    position: absolute;
+    top: 65.40%;
+    left: 19.93%;   
+    background: #564794; 
+}
+
+.manga-1-camisa-steve {
+    width: 23.50%;
+    height: 17.36%;
+    position: absolute;
+    top: 64.5%;
+    left: 64.17%;
+    background: #4DD5E4;
+    transform: rotate(-55.43deg);
+}
+
+.manga-2-camisa-steve {
+    width: 19.93%;
+    height: 9.84%;
+    position: absolute;
+    background: #4DD5E4;
+    top: 27.02%;
+}
+
+.manga-3-camisa-steve {
+    width: 25%;
+    height: 26.53%;
+    position: absolute;
+    top: 54.59%;
+    left: 52.23%;    
+    background: #4DD5E4;
+}
+
+.camisa-steve {
+    width: 35.12%;
+    height: 38.38%;
+    position: absolute;
+    top: 27.02%;
+    left: 19.93%;
+    background: #4DD5E4;
+}
+
+.braco-steve {
+    width: 265.34%;
+    height: 194.05%;
+    position: absolute;
+    top: -106.93%;
+    left: -118.81%;
+}
+
+.braco-esquerdo-steve {
+    width: 23.50%;
+    height: 50%;
+    position: absolute;
+    top: 66.83%;
+    left: 83.95%;
+    background: #D2A37C;
+    transform: rotate(-55.43deg);
+}
+
+.braco-direito-steve {
+    width: 19.93%;
+    height: 23.98%;
+    position: absolute;
+    top: 36.86%;
+    background: #D2A37C;
+}
+
+.cabeca-steve {
+    width: 35.12%;
+    height: 26.51%;
+    position: absolute;
+    top: 0.5%;
+    left: 19.93%;
+    background: #D2A37C;
+}
+
+.cabelo-steve {
+    width: 35.12%;
+    height: 8.83%;
+    position: absolute;
+    left: 19.93%;
+    background: #3F2109;    
+}
+
+.costeleta-1-steve {
+    width: 4.43%;
+    height: 4.04%;
+    position: absolute;
+    top: 8.83%;
+    left: 50.63%;
+    background: #3F2109;    
+}
+
+.costeleta-2-steve {
+    width: 4.43%;
+    height: 4.04%;
+    position: absolute;
+    top: 8.83%;
+    left: 19.93%;
+    background: #3F2109;    
+}
+
+.barba-steve-part-1 {
+    width: 8.22%;
+    height: 2.27%;
+    position: absolute;
+    top: 16.91%;
+    left: 34.17%;
+    background: #66350D;
+}
+
+.barba-steve-part-2 {
+    width: 8.45%;
+    height: 2.27%;
+    position: absolute;
+    top: 23.48%;
+    left: 34.1%;
+    background: #3F2109;
+}
+
+.barba-steve-part-3 {
+    width: 2.84%;
+    height: 6.56%;
+    position: absolute;
+    top: 19.19%;
+    left: 31.32%;   
+    background: #3F2109; 
+}
+
+.barba-steve-part-4 {
+    width: 2.84%;
+    height: 6.56%;
+    position: absolute;
+    top: 19.19%;
+    left: 42.40%;   
+    background: #3F2109;
+}
+
+.esclera-olho-steve-1 {
+    width: 3.48%;
+    height: 4.04%;
+    position: absolute;
+    top: 12.87%;
+    left: 27.84%;
+    background: #FFFFFF;  
+}
+
+
+.iris-olho-steve-1 {
+    width: 2.84%;
+    height: 4.04%;
+    position: absolute;
+    top: 12.87%;
+    left: 31.32%;
+    background: #1A2BC3;  
+}
+
+.esclera-olho-steve-2 {
+    width: 3.48%;
+    height: 4.04%;
+    position: absolute;
+    top: 12.87%;
+    left: 42.40%;
+    background: #FFFFFF;  
+}
+
+.iris-olho-steve-2 {
+    width: 2.84%;
+    height: 4.04%;
+    position: absolute;
+    top: 12.87%;
+    left: 45.88%;
+    background: #1A2BC3;  
+}
+
+.zumbi {
+    width: 16.15%;
+    height: 54.55%;
+    position: absolute;
+    top: 40.46%;
+    left: 78.12%;
+    animation: anim-zumbi 5s infinite;
+}
+
+.calca-zumbi {
+    width: 44.35%;
+    height: 34.32%;
+    position: absolute;
+    top: 63.20%;
+    left: 43.95%;
+    background: #564794;
+}
+
+.camisa-zumbi {
+    width: 44.35%;
+    height: 37.28%; 
+    position: absolute;
+    top: 25.92%;
+    left: 43.95%;
+    background: #4DD5E4;
+}
+
+.cabeca-zumbi {
+    width: 44.35%;
+    height: 25.92%;
+    position: absolute;
+    left: 43.95%;
+    background: #75AB58;    
+}
+
+.braco-1-zumbi {
+    width: 43.95%;
+    height: 15.55%;
+    position: absolute;
+    top: 26.17%;
+    transform-origin: 100% 50%;
+    animation: anim-braco-1-zumbi 5s infinite;
+}
+
+.braco-2-zumbi {
+    width: 58.87%;
+    height: 19.75%;
+    position: absolute;
+    top: 22.22%;
+    left: 32.66%;
+    transform-origin: 100% 50%;
+    animation: anim-braco-1-zumbi 4s infinite;
+}
+
+.manga-1-camisa-zumbi {
+    width: 36.69%;
+    height: 101.61%;
+    position: absolute;
+    left: 73.39%;    
+    background: #4DD5E4;
+}
+
+.manga-2-camisa-zumbi {
+    width: 43.22%;
+    position: absolute;
+    height: 50.15%;
+    top: 31.64%;
+    left: 61.64%;
+    transform: rotate(-83deg);
+    background: #4DD5E4;    
+}
+
+.braco-direito-zumbi {
+    width: 73.91%;
+    height: 101.61%;
+    position: absolute;
+    background: #669A4A;
+}
+
+.braco-esquerdo-zumbi {
+    width: 42.90%;
+    height: 127.43%;
+    position: absolute;
+    top: -18.35%;
+    left: 14.38%;
+    transform: rotate(-83deg);
+    background: #669A4A;
+}
+
+.olho-1-zumbi {
+    width: 16.36%;
+    height: 18.09%;
+    position: absolute;
+    top: 45.71%;
+    left: 58.18%;
+    background: #000000;
+}
+
+.olho-2-zumbi {
+    width: 16.36%;
+    height: 18.09%;
+    position: absolute;
+    top: 45.71%;
+    left: 21.81%;
+    background: #000000;
+}
+
+.nariz-zumbi {
+    width: 20%;
+    height: 9.52%;
+    position: absolute;
+    top: 63.80%;
+    left: 38.18%;
+    background: #52743F;
+}
+
+.nuvems {
+    width: 100%;
+    height: 30.72%;
+    position: absolute;
+    top: 2.83%;
+    animation: anim-nuvem 40s infinite reverse;
+}
+
+.nuvem-1 {
+    width: 17.83%;
+    height: 57.01%;
+    position: absolute;
+    top: 39.47%;
+    left: 3.77%;    
+}
+
+.nuvem-2 {
+    width: 19.53%;
+    height: 57.01%;
+    position: absolute;
+    top: 13.15%;
+    left: 36.58%;    
+}
+
+.nuvem-3 {
+    width: 17.83%;
+    height: 57.89%;
+    position: absolute;
+    top: 30.70%;
+    left: 78.12%;
+}
+
+.fumaca-1-nuvem-1 {
+    width: 98.54%;
+    height: 56.92%;
+    position: absolute;
+    top: 43.07%;    
+    background: #ffffff;
+}
+
+.fumaca-2-nuvem-1 {
+    width: 47.44%;
+    height: 56.92%;
+    position: absolute;
+    left: 18.24%;    
+    background: #ffffff;
+}
+
+.fumaca-1-nuvem-2 {
+    width: 100%;
+    height: 56.92%;
+    position: absolute;
+    top: 40.76%;
+    background: #ffffff;
+}
+
+.fumaca-2-nuvem-2 {
+    width: 73%;
+    height: 56.92%;
+    position: absolute;
+    left: 15%;
+    background: #ffffff;
+}
+
+.fumaca-1-nuvem-3 {
+    width: 98.54%;
+    height: 56.06%;
+    position: absolute;
+    top: 40.90%;  
+    background: #ffffff;
+}
+
+.fumaca-2-nuvem-3 {
+    width: 62.04%;
+    height: 56.06%;
+    position: absolute;
+    left: 23.72%;    
+    background: #ffffff;
+}
+
+.div-espada-braco {
+    width: 31.94%;
+    height: 25.51%;
+    position: absolute;
+    top: 27.29%;
+    left: 38.33%; 
+    animation: anim-espada 5s infinite;
+}
